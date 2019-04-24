@@ -1,7 +1,7 @@
 # Dunes-Lab-Redesign
 BIO380 Project by CSUMB students Sophia Rose, Nicholas Heyer, Zane Toyon, and Madison McCarthy to redesign data entry for BIO211's "Dunes Lab" and compile all old data into the same format.
 
-# Python scripts - Data compilation
+# Data compilation: DuneLabDatabase.sql and DuneLabUpdate.sql
 DunesLabOldData.py is used to reformat past Excel sheets into a master tsv file. It's intended to be used in a BASH loop
 appending to some file that will become the master tsv. DunesLabOldData.py prints standard errors to console informing
 of any data entry errors found that cannot be resolved by this script. This script works with any tab-separated file
